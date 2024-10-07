@@ -1,0 +1,345 @@
+		/*For general content placement and navifation bar*/
+
+
+		.fatheruniversal{
+			width: 100%;
+			display:flex;
+			justify-content:center;
+			background-color: black;
+		}
+		.universal{
+			width:80%;
+		}
+		html,body{
+			margin:0;
+			background-image: url(indexback.avif);
+			background-attachment:fixed;
+			color:white;
+		}
+		a{
+			text-decoration: none;
+			color:white;
+		}
+		.navbar{
+				position: fixed;
+				width:100%;
+				display:flex;
+				justify-content: center;
+				background-color:#1c1c1c;
+				border-bottom: 1px solid #5e5e5e;	
+		}
+		.navbarbut{
+			color:white;
+			height:60px;
+			width:150px;
+			display:flex;
+			justify-content: center;
+			text-align: center;
+			flex-direction:column;
+		}
+		.navbarbut:hover{
+			background-color: white;
+			color:black;
+		}
+		.decoration{
+			margin-right:20px;
+			text-decoration:none;
+			color:white;
+		}
+
+
+
+		/*for Homepage-RX 9000 series GPU boxes*/
+
+
+
+		#box1{
+			margin-top:0px;
+
+		}
+		.gpuboxes{
+			width:100%;
+			height:500px;
+			margin-top:50px;
+			margin-bottom:50px;
+			display:flex;
+			flex-direction: row;
+		}
+		.gpuimg{
+			width:50%;
+			height:100%;
+			display:flex;
+			justify-content: center;
+			align-items:center;
+		}
+		#gpuimg-img{
+			border-radius:15px;
+		}
+
+
+
+
+		/*for Homepage-RX 9000 series GPU boxes-content placement*/
+
+
+
+		.information{
+			display:flex;
+			flex-direction: column;
+			justify-content: center;
+			width:50%;
+			height:100%;
+		}
+		.gpuboxes-heading{
+			width:100%;
+		}
+		.gpuboxes-heading-text{
+			margin:10px;
+			font-size:40px;
+			font-family: "Noto Serif Old Uyghur", serif;
+  			font-weight: 400;
+  			font-style: normal;
+		}
+		.gpuboxes-content{
+			 font-family:sans-serif;
+			 font-weight:600
+
+		}
+		.gpuboxes-table{
+			width:100%;
+		}
+		.gpuboxes-table-table{
+			width:100%;
+			font-weight:200;
+			text-align:center;
+		}
+		.gpuboxes-table-table-fps{
+			font-size:130%;
+		}
+		.gpuboxes-buttons{
+			display:flex;
+			align-items: center;
+			justify-content: center;
+			height:100px;
+			width:100%;
+
+		}
+		.gpuboxes-buttons-area1{
+			width:40%;
+			height:70%;
+			margin-right:70px;
+		}
+		.gpuboxes-buttons-area2{
+			width:40%;
+			height:70%;
+		}
+		.gpuboxes-buttons-button1{
+			display:flex;
+			align-items: center;
+			justify-content: center;
+			width:100%;
+			height:100%;
+			border:2px solid white;
+			border-radius:15px;
+		}
+		.gpuboxes-buttons-button1:hover{
+			background-color: #fff2c4;
+			color:black;
+
+		}
+		.gpuboxes-buttons-a{
+			font-size:1.5em;
+			font-weight:600;
+			font-family:"Noto Serif Old Uyghur", serif;
+			color:white;
+		}
+
+
+
+		/*for top page of the Homepage & Questionnarie(background&text)*/
+
+
+
+		.innovbase{
+			width:100%;
+			height:1000px;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+		}
+		.gapbetween-but{
+			border:1px solid white;
+			width:120px;
+			height:50px;
+			font-weight:540;
+			display:flex;
+			justify-content: center;
+			align-items: center;
+			border-radius:15px;
+		}
+		.gapbetween-but:hover{
+			background-color: white;
+			color:black;
+		}
+
+
+
+		/*for the index page*/
+
+
+
+		.index-body{
+			background-image:url("twa.avif");
+			background-size:cover;
+		}
+		.index-empty{
+			width:100%;
+			height:800px;
+		}
+		.index-contentplace1{
+			width:100%;
+			background-color:black;
+		}
+		.index-contentplace1-headingfather{
+			display:flex;
+			flex-direction: row;
+			height:100px;
+		}
+		.index-contentplace1-heading1{
+			display: flex;
+			align-items: center;
+			width:80%;
+		}
+		.index-contentplace1-content{
+			display:flex;
+			justify-content: center;
+		}
+		.index-contentplace1-heading2{
+			width:20%;
+			display:flex;
+			justify-content: center;
+			align-items: center;
+
+		}
+		.col{
+			width:90%;
+			height:350px;
+			margin-right:50px;
+		}
+		.colimg{
+			width:100%;
+		}
+		.cola{
+			font-weight:500;
+			font-family:"Noto Serif Old Uyghur", serif;
+			background-color:#121212;
+
+		}
+		.cola:hover{
+			text-decoration:underline;
+		}
+
+
+
+		/*for the questionnaire page*/
+
+
+
+		#quesbody{
+			background-image:url(backgroundq.avif);
+			background-attachment: fixed;
+			background-size:cover;
+		}
+		.fatheruniversalq{
+			margin:0;
+			padding:0;
+			width: 100%;
+			display:flex;
+			justify-content:center;
+		}
+		.formhead{
+			display: flex;
+			align-items: center;
+			height:100px;
+
+
+		}
+		.forminput1-2{
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			margin-top:30px;
+			font-weight:550;	
+
+		}
+		.forminput1{
+			margin-right:20px;
+		}
+		.forminput4{
+			font-weight: 550;
+		}
+		.form{
+			margin-top:20px;
+			background-color:#121212;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+		}
+		.formmargin{
+			margin-top:30px;
+			font-weight:550;			
+		}
+		.gallery-images{
+			width:33%;
+		}
+		.gallery{
+			margin-top:30px;
+		}
+		.gallery-imagesfather{
+			margin-top:30px;
+			display: flex;
+			flex-direction: row;
+			justify-content: center;
+			align-items: center;
+		}
+
+
+
+		/*For evaluation page*/
+
+
+
+		#evalbody{
+			background-image:url(backgrounde.avif);
+			background-attachment: fixed;
+			background-size:cover;
+		}
+		.evaluation-contentplace1{
+			margin-top:20px;
+			width:100%;
+			background-color:black;
+			display:flex;
+			justify-content: center;
+		}
+		.evaluation-youtuber{
+			margin-top:20px;
+		}
+		.evaluation-contentplace1-scrollmenu{
+			width:70%;
+			height:352px;
+			overflow:auto;
+			white-space:nowrap;
+		}
+		.evaluation-contentplace1-scrollmenu iframe{
+			margin-right:30px;
+			display:inline-block;
+			height:352px;
+			width:600px;
+		}
+		.evaluation-youtuber-profile{
+			width:100%;
+		}
+		.evaluation-contentplace1-image{
+			margin-right:20px;
+		}		
+
